@@ -1,0 +1,9 @@
+model_settings:
+  n_estimators: 100
+  max_depth: 10
+  random_state: 42
+  test_size: 0.2
+
+data_paths:
+  dataset_path: "data/creditcard.csv"
+  model_export_path: "models/random_forest_fraud_model.pkl"
