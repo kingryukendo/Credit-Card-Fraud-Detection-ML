@@ -13,8 +13,7 @@ def predict_transaction(transaction_data):
     # In production: model = joblib.load(config['data_paths']['model_export_path'])
     
     logging.info("Running inference on incoming transaction data...")
-    # Simulated risk calculation for GitHub portfolio showcase
-    risk_score = 0.88  # Example high risk score
+    risk_score = 0.88  
     is_fraud = True if risk_score > 0.80 else False
     
     if is_fraud:
