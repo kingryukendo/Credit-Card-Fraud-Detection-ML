@@ -15,6 +15,5 @@ I compared four major algorithms to find the most accurate detection mechanism:
 3. **K-Nearest Neighbors (KNN)**
 4. **Decision Tree**
 
-### 📁 Project Structure
-- `PROJECT REPORT ON.pdf`: Detailed documentation and analysis.
+ 📁 Project Structure
 - `fraud_detection.py`: Python implementation of the ML models.
