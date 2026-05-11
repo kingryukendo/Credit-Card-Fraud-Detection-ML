@@ -1,0 +1,19 @@
+# Ignore dataset files (Security & Size limit)
+data/
+*.csv
+*.xlsx
+*.json
+
+# Ignore model weight files
+models/
+*.pkl
+*.h5
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+venv/
+env/
