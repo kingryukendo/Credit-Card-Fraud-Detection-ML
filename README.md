@@ -1,19 +1,21 @@
-# Credit Card Fraud Detection using Machine Learning 🛡️💳
+# Credit Card Fraud Detection ML Pipeline
 
-### 🚀 Overview
-This project is an automated system designed to identify and classify fraudulent credit card transactions using Machine Learning. It analyzes transaction patterns from a Kaggle dataset containing anonymized real-world European cardholder data.
+An enterprise-grade Machine Learning pipeline designed to detect fraudulent credit card transactions with high precision, handling highly imbalanced datasets.
 
-### 🛠️ Tech Stack
-- **Language:** Python 3.10
-- **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-- **Framework:** Flask (for Web Interface)
+## 🚀 Project Overview
+Fraudulent transactions make up a microscopic fraction of global credit card usage. This project implements a robust anomaly detection and classification pipeline using advanced ensemble methods (Random Forest) to accurately identify fraud without causing high false-positive rates for legitimate users.
 
-### 📊 Models Implemented
-I compared four major algorithms to find the most accurate detection mechanism:
-1. **Random Forest Classifier**
-2. **Logistic Regression**
-3. **K-Nearest Neighbors (KNN)**
-4. **Decision Tree**
+## 🧠 Technical Architecture
+- **Data Preprocessing:** Feature scaling, handling missing values, and dimensionality reduction (PCA).
+- **Class Imbalance Handling:** Implemented strategic sampling techniques to train unbiased models.
+- **Model Training:** Utilized `RandomForestClassifier` for robust non-linear decision boundaries.
+- **Evaluation Metrics:** Focused strictly on **Precision-Recall AUC** and **F1-Score** rather than plain accuracy.
 
- 📁 Project Structure
-- `fraud_detection.py`: Python implementation of the ML models.
+## 🛠️ Tech Stack
+- **Language:** Python 3.9+
+- **Data Engineering:** Pandas, NumPy
+- **Machine Learning:** Scikit-Learn
+- **Logging & Tracking:** Python Logging Module
+
+## 📊 Business Impact
+By minimizing false positives, this model ensures that legitimate customer transactions are not blocked, preserving user experience while saving millions in potential fraud losses.
